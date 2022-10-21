@@ -1,7 +1,6 @@
-public class Program
-{
-    public static void main(string[] args)
+public class main {
+    public static void main(String[] args)
     {
-        System.out.printIn("Hello World")
+        System.out.printIn("Hello World");
     }
 }
