@@ -1,5 +1,8 @@
+import helpers.InputReader;
+
 public class program 
 {
+    public static final String CONSOLE_CLEAR = "\033[H\033[2J";
     public static void main(String[] args) 
     {
         String name;
