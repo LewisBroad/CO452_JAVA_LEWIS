@@ -19,7 +19,7 @@ public class SongList
         addSomeSongs();
         doMainMenu();
     }
-
+        // This allows the "Program.java" file to fetch the code from this file. The public parts can be retreived.
 
     public void doMainMenu() 
     {
@@ -72,7 +72,7 @@ public class SongList
         }
         else System.out.println("Song could not be found");
         printSongs();        
-    }
+    } // This allows a song to be deleted from the array. It uses the findSong function to locate the song through input.
 
     private Song findSong()
     {
@@ -83,7 +83,7 @@ public class SongList
                 return song;
         }
         return null;
-    }
+    } // the findSong function uses the phrase inputted by the user to locate a song in the array.
 
     private void printSongs()
     {
@@ -96,8 +96,8 @@ public class SongList
     }
     private void topSongs()
     {
-
-    }
+       
+        }
 
     private void addSomeSongs()
     {
