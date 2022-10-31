@@ -1,6 +1,7 @@
 package CW1;
 import helpers.*;
 import java.util.ArrayList;
+
 /**This class allows the user to
  * 
  * Add songs to a list.
@@ -95,8 +96,6 @@ public class SongList
     }
     private void topSongs()
     {
-        System.out.println("\nPrinting Top Songs\n");
-        
 
     }
 
