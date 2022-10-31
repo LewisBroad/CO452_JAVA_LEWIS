@@ -30,5 +30,10 @@ public class Song
         return title;
     }
 
+    public int getPlayCount()
+    {
+        return playCount;
+    }
+
 
 }
