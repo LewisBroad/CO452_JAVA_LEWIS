@@ -19,7 +19,7 @@ public class Song
     }
     public void print()
     {
-        System.out.println(title + " - " + artist + " " + playCount);
+        System.out.println(title + " - " + artist + " |" + playCount);
 
     }
     public void remove(Song song) {
@@ -30,10 +30,9 @@ public class Song
         return title;
     }
 
-    public int getPlayCount()
-    {
+       public int getPlayCount() {
         return playCount;
     }
-
+   
 
 }
