@@ -117,5 +117,25 @@ public class SongList
 
         song = new Song("Paradise City", "Guns N' Roses", 807383102);
         songs.add(song);
+
+        song = new Song("Obsessed With You", "Central Cee", 181425719);
+        songs.add(song);
+
+        song = new Song("STAR WALKIN'", "Lil Nax X", 84573502);
+        songs.add(song);
+
+        song = new Song("Love Story", "Taylor Swift", 619492413);
+        songs.add(song);
+
+        song = new Song("Good 4 U", "Olivia Rodrigo", 1650436609);
+        songs.add(song);
+
+        song = new Song("Lose", "KSI", 57848750);
+        songs.add(song);
+
+        song = new Song("Seventeen Going Under", "Sam Fender", 128596479);
+        songs.add(song);
+
+    
     }
 }
