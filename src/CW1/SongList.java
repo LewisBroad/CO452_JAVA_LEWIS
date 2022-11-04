@@ -38,7 +38,7 @@ public class SongList
                 case 3: printSongs(0);break;
                 case 4: topSongs();
                 case 5: wantToQuit = true; break;
-            }//This will give a list of options to the user for the first input and inputting a number will run a different line of code.
+            }//Based on user input, this method will fetch the code required to complete the method.
         }
     }
     public void displayMenu()
@@ -48,7 +48,8 @@ public class SongList
         System.out.println(" 3. Print All Songs");
         System.out.println(" 4. List Top Songs");
         System.out.println(" 5. Quit\n");
-
+        
+        //This is the different options displayed n the menu. The user will see these sets of options.
     }
 
 
@@ -94,13 +95,14 @@ public class SongList
         {
             if(song.getPlayCount()>count)
                 song.print();
-        }
+        } //This is used along with the topSongs method. It uses the input to calculate which songs have a greater play count than the inputted number.
     }
     private void topSongs()
     {
         int countAnswer = InputReader.getInt("Enter a playcount. The songs above that playcount will be displayed. >");
         printSongs(countAnswer);
-        
+
+        //The user will enter a number and the app will check to see which songs the list have a greater number than the one inputted.
 
         }
 
@@ -136,6 +138,6 @@ public class SongList
         song = new Song("Seventeen Going Under", "Sam Fender", 128596479);
         songs.add(song);
 
-    
+        // This is a method used to add songs to the array. Instead of having to input them each time, these will always be put into the list.
     }
 }

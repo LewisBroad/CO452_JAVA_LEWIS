@@ -13,5 +13,5 @@ public class Program
 
         SongList songList = new SongList();
         songList.doMainMenu();
-    }
+    } //This will display the main menu and is the backbone of the app.
 }
